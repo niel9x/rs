@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="/css/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <div class="title"><h1>Ajude o Rio Grande do Sul!</h1></div>
+    <div class="desc"><p>Reconstrução/Tragédias</p></div>
+    <div class="container">
+        <div class="vakinha">
+            <div class="img">
+                <img src="/img/69033192_303.jpg" alt="">
+            </div>
+
+            <div class="desc"><p>Venha fazer parte da mudança no Rio Grande do Sul! Sua doação é essencial para impulsionar nosso estado em direção a um futuro melhor. Junte-se a nós e faça a diferença na vida de milhares de gaúchos!</p></div>
+        </div>
+    </div>
+
+    <aside class="window">
+        <section class="donation">
+            <div class="form">
+                <form action="/donations" method="POST">
+                    <label for="donation">Valor da doação (R$)</label>
+                    <input type="number" id="donation_value" name="donation_value" autocomplete="off" required>
+
+                    <label for="name">Nome Completo</label>
+                    <input type="text" id="name" name="name" autocomplete="off" required>
+
+                    <label for="email">Endereço de email</label>
+                    <input type="email" id="email" name="email" autocomplete="off" required>
+
+                    <h1>Método de pagamento</h1>
+                    <div class="checkboxes">
+                        <p>Pix</p>
+                        <input type="radio" id="pix" name="payment_method" value="Pix" required>
+                    </div>
+
+                    <div class="checkboxes">
+                        <p>Boleto</p>
+                        <input type="radio" id="boleto" name="payment_method" value="Boleto" required>
+                    </div>
+
+                    <input type="submit" value="Doe Agora!">
+                </form>
+            </div>
+        </section>
+    </aside>
+
+    <script src="/js/scripts.js"></script>
+</body>
+</html>

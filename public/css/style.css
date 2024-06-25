@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #1f1f1f;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+.title h1 {
+    color: white;
+}
+
+.desc {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px
+}
+
+.desc p {
+    color: grey;
+}
+
+.container {
+    margin-left: 350px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .vakinha {
+    margin-top: 150px;
+    background-color: white;
+    width:750px;
+    height: 600px;
+}
+
+.img img {
+    border: none;
+    margin-left: 20px;
+    margin-top:10px;
+}
+
+.vakinha .desc {
+    display: flex;
+    justify-content: left;
+    padding-left: 27px;
+}
+
+/* Form */
+.widow {
+    margin-top: 150px;
+    margin-left: 1150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    position: relative;
+}
+
+.donation {
+    background-color: white;
+    width: 400px;
+    height: 600px;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+form input[type='number'], input[type='email'], input[type='text'] {
+    width: 350px;
+    
+}
+
+form h1{
+    padding-top: 25px;
+}
+
+form .checkboxes {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    border: 1px solid rgb(255, 43, 121) ;
+    margin-top: 10px;
+    border-radius: 8px;
+    width: 100px;
+    justify-content: center;
+    color: rgb(255, 43, 121);
+}
+
+form input[type='submit'] {
+    margin-top: 50px;
+    width: 200px;
+    height: 30px;
+    border: none;
+    color: white;
+    outline: none;
+    background-color: rgb(255, 43, 121);
+    border-radius: 16px;
+}

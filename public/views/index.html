@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Para quem doar?</title>
+</head>
+<body>
+    <div class="container-box">
+        <div class="rs">
+            <div class="img">
+                <img src="assets/undraw_family_vg76.svg" alt="">
+            </div>
+            <div class="p">
+                <h3>Junte-se a nós na missão de fazer a diferença! Faça sua doação agora e apoie o estado.</h3>
+            </div>
+            <div class="desc">
+                <button id="show-login">Doe para RS!</button>
+            </div>
+
+            <div class="popup">
+                <div class="close-btn">&times;</div>
+                <div class="form">
+                    <h2>login</h2>
+                    <div class="form-element">
+                        <form action="Php/login.php" method="post">
+                        <label for="tel">Telefone</label>
+                        <input type="number" name="tel" id="tel" placeholder="Inserir Telefone" required>
+                    </div>
+        
+                    <div class="form-element">
+                        <label for="password">Senha</label>
+                        <input type="password" name="password" id="password" placeholder="Inserir Senha" required>
+                    </div>
+        
+                    <div class="form-element">
+                       <button type="submit">Entre!</button>
+                    </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
